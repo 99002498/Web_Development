@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry</title>
+    <style>
+        body{
+            background-color :antiquewhite;
+            color:black;
+        }
+        h1{
+            text-align: center;
+            padding: 10px;
+            color:rgb(32, 107, 245);
+            font-size:"70pt";
+    
+        }
+        nav{
+            background-color: blueviolet;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+        
+        }
+        a{
+            display:inline-flexbox;
+            width: 100%;
+            height: 20px;
+            margin-left: 30px;
+            text-underline-offset: bottom;
+            text-align: center;
+            color: aquamarine;
+            font-size: 20pt;
+        }
+        div{
+            width: 150px;
+            height: 150px;
+            border: dotted gold;
+            display: inline-block;
+            margin: 30px;
+    
+        }
+        section{
+            text-align:left;
+        }
+        footer{
+            position: fixed;
+            width: 100%;
+            text-align: center;
+            bottom: 0px;
+        }
+        </style>
+</head>
+<body>
+    <h1><i>Chill out Residency</i></h1>
+    <header>
+        <nav>
+            <a href="./Home.html">Home</a>
+            <a href="./aboutus.html">About Us</a>
+            <a href="./facilities.html">Facilities</a>
+            <a href="./forms.html">Enquiry</a>
+            <a href="./rooms.html">Rooms</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Hotel Facilities</h2>
+        <p>
+          <h4>Please fill the details </h4>
+        </p>
+    </section>
+    <section>
+        <form>
+            <p>Enter Your Name-<input type="text" placeholder="Enter Your Name" id="name"></p>
+            <p>Enter Your email-<input type="email" placeholder="Enter Your email" id="email"></p>
+            <p>Enter Your Date of checkin-<input type="date" placeholder="Enter Your Date of checkin" id="checkin"></p>
+            <p>Enter Your phone-<input type="tel" placeholder="Enter Your phone" id="phone"></p>
+            <p>Number of days of Stay-<input type="number" placeholder="Number of days of Stay" min="1" max="5" id="Stay"></p>
+            <p>
+                <h3>Additional Facilities</h3>
+            </p>
+            <p>
+                <h4>Food Options</h4>
+                <p><input type="checkbox">Veg</p>
+                <p><input type="checkbox">Non-Veg</p>  
+            </p>
+            <p>
+                <h4>LifeStyle Options</h4>
+                <p><input type="checkbox">gym</p>
+                <p><input type="checkbox">pool</p>
+                <p><input type="checkbox">Drinks</p>
+                <p><input type="checkbox">Spa</p>
+            </p>
+            <p>
+                <h4>Travel Options</h4>
+                <p><input type="checkbox">Pick-Up</p>
+                <p><input type="checkbox">Drop</p>
+            </p>
+            <p><h4>Rate Your Stay</h4>
+                <input type="range" min="1" max="5" step="1">
+            </p>
+            <button type="button">register</button>
+        </form>
+        <footer>
+            <hr/>
+            <i>&copy; Copyrights by Pooja, All Rights Reserved.</i>
+        </footer>
+</body>
+</html>
